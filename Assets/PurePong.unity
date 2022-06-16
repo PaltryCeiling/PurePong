@@ -131,6 +131,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1388294809}
   - component: {fileID: 1388294810}
+  - component: {fileID: 1388294811}
+  - component: {fileID: 1388294812}
+  - component: {fileID: 1388294813}
   m_Layer: 0
   m_Name: emptyMain
   m_TagString: Untagged
@@ -164,6 +167,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9517c527ac3270b47bca2407eef77ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1388294811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388294808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478c8b4e0e389ee4db1e9759b99ee596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaler: 2
+--- !u!114 &1388294812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388294808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1a4d12fcf0c5042b00f7c2492e915f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaler: 2
+--- !u!114 &1388294813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388294808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628783b9f397193418c44a0ef501d76a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballVelocity: {x: 0, y: 0}
+  ballLocation: {x: 0, y: 0}
+  speed: 0
 --- !u!1 &1615355616
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +315,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940715505}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8b58d22e9c445747af9a8247c862355, type: 3}
   m_Name: 
